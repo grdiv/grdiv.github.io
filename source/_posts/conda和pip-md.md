@@ -141,3 +141,12 @@ custom_channels:
 ```
 conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 ```
+
+- conda设置代理
+
+暂时没有找到conda命令的参数。在~/.condarc配置文件中设置：   
+```
+proxy_servers:
+  http: http://10.16.41.210:8086
+  https: https://10.16.41.210:8086
+```  
